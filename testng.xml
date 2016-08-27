@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Tngsuite">
+    <classes>
+      <class name="com.stock.master.suplng"/>
+      <class name="com.stock.master.scatng"/>
+      <class name="com.stock.master.uomc"/>
+    </classes>
+  </test> <!-- Tngsuite -->
+</suite> <!-- Suite -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Tngsuite(failed)">
+    <classes>
+      <class name="com.stock.master.suplng">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="supliercreation"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.stock.master.suplng -->
+    </classes>
+  </test> <!-- Tngsuite(failed) -->
+</suite> <!-- Failed suite [Suite] -->
